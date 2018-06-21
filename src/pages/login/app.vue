@@ -19,7 +19,7 @@ export default {
     },
     methods: {
       jumpPage() {
-        window.location.href = 'http://192.168.1.138:8080/home/home.html'
+        window.location.href = '/home/home.html'
       }
     }
 }

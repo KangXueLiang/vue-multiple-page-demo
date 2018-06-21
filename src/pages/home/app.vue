@@ -24,7 +24,7 @@
     methods: {
       pageJump () {
         console.log(1)
-        window.location.href = 'http://192.168.1.138:8080/login/login.html'
+        window.location.href = '/login/login.html'
       }
     }
   }
