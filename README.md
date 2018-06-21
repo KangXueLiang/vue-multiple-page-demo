@@ -11,5 +11,5 @@
 - **npm install (or cnpm 其他)** 装依赖包
 - **npm run dev** 起服务
 - **npm run build** 打上线包
-- 跑起来服务后,需要在url输入 /module/*.html (*为对应文件夹名字)
+- 跑起来服务后,需要在url输入 /*/*.html (*为对应文件夹名字)
 - 添加了新文件夹后,需要重新 npm run dev一下
