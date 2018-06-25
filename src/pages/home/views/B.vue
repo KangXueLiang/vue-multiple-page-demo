@@ -1,15 +1,12 @@
 <template>
   <div>
-    <h1>{{title}}</h1>
-    <p>{{content}}</p>
+    <h1>路由B</h1>
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      title: 'components B title',
-      content: 'components B content'
     }
   }
 }

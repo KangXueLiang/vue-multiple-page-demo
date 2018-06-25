@@ -18,6 +18,9 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 // 自动检索下一个可用端口
 const portfinder = require('portfinder')
 
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
 /*
   http://nodejs.cn/api/process.html#process_process_env
   process.env 是在node环境中 返回一个包含用户环境信息的对象。
@@ -189,6 +192,7 @@ for(let pathName in pages){
     // 指定当前的html插入的模块(如果不设定会将所有页面的js都插入, - -)
     chunks: [pathName]
   }
+  console.log(options)
 
   devWebpackConfig.plugins.push(new HtmlWebpackPlugin(options))
 }

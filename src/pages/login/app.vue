@@ -2,7 +2,7 @@
     <div>
         <p>这里是登录页面！！</p>
         <hr/>
-        <p @click="jumpPage()">点击这里返回home页</p>
+        <p @click="jumpPage()" class="button">点击这里返回home页</p>
     </div>
 </template>
 
@@ -25,7 +25,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style rel="stylesheet/scss" lang="scss" scoped>
+.button {
+  cursor: pointer;
+}
 
 </style>
